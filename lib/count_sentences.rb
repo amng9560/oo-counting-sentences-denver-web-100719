@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     binding.pry
-    new_array = self.split
+    new_array = self.split(".", "!", "?").reject self
   end
 end
