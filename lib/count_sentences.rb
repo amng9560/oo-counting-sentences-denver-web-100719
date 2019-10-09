@@ -12,7 +12,10 @@ class String
 
   def question?
     if
-      
+      if self.end_with?("?")
+        true
+      else
+        false
     end
   end
 
