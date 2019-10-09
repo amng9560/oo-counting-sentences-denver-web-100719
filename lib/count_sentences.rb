@@ -11,7 +11,9 @@ class String
   end
 
   def question?
-
+    if
+      
+    end
   end
 
   def exclamation?
